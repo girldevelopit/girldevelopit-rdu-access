@@ -117,29 +117,6 @@
 				</section>
 
 				<section>
-					<h2>HTML Headings</h2>
-					<p>Semantic structure is one of the most important usability features for screen reader users, as it helps them more easily understand and navigate the page structure. Headings also help <em>all</em> your users can and understand content. <a href="http://accessiblehtmlheadings.com/" target="_blank" title="Link opens in a new window">Read more about headings<span class="visuallyhidden"> opens in a new window</span></a>.</p>
-<pre><code class="html">// Headings should not skip levels until h1-h4 have been established
-&lt;h1&gt;Most important&lt;/h1&gt;
-&lt;h2&gt;Next most important&lt;/h2&gt;
-&lt;h3&gt;Third most important&lt;/h3&gt;
-&lt;h4&gt;Other heading&lt;/h4&gt;
-</code></pre>
-					<p>Tip: use the Firefox Web Developer Toolbar to inspect headings. Look under Information > View Document Outline.</p>
-          <aside class="notes">The metaphor of an outline for a paper or article is helpful here.</aside>
-				</section>
-
-				<section>
-					<h2>HTML5 Headings</h2>
-					<h3>Use with caution</h3>
-					<img src="img/html5-girl.png" alt="HTML5 Girl" />
-					<p><a href="http://www.paciellogroup.com/blog/2013/10/html5-document-outline/" target="_blank" title="Link opens in a new window">The HTML5 Document Outline
-					<span class="visuallyhidden"> opens in a new window</span></a><br> by the Paciello Group</p>
-
-          <aside class="notes">Talk about <a href="http://tink.co.uk/2013/02/screen-reader-support-for-html5-sections/">screen reader testing</a> of HTML 5 tags &amp; headings and the current state of the HTML5 heading algorithm (h1's that start over with new landmarks). Mention <a href="http://accessibleculture.org/articles/2011/10/jaws-ie-and-headings-in-html5/">bugs with JAWS and IE8.</a></aside>
-				</section>
-
-				<section>
 					<h2>Form Labels</h2>
 					<h3>How do they work?</h3>
 					<!-- explanation here -->
@@ -170,6 +147,48 @@ name="name-field" placeholder="Type your name" /&gt;
 </code></pre>
 				</section>
 
+        <!-- Physical disabilities-->
+        <section>
+          <h3>Lose the Mouse</h3>
+          <img src="img/mouse.jpg" alt="Cat steals mouse" />
+          <p class="credit">Photo credit: <a href="http://ipkitten.blogspot.com/2013/07/the-patent-legacy-of-computer-mouse.html" target="_blank" title="Link opens in a new window">The IP Kat<span class="visuallyhidden"> opens in a new window</span></a></p>
+        </section>
+        <section>
+          <h2>Demo</h2>
+          <aside class="notes">
+            <p><a href="https://www.youtube.com/watch?v=p83wLuq3USA" target="_blank">YouTube video on eye-tracking software</a></p>
+            <p><a href="http://codecanyon.net/item/subscribe-popup/full_screen_preview/2421232">Popup sign up</a></p>
+          </aside>
+        </section>
+
+        <!-- Cognitive disabilities-->
+        <section>
+          <h3>Don't overwhelm</h3>
+          <img src="img/toomanysigns.jpg" alt="Sign post with multiple signs"/>
+          <p class="credit">Photo credit: <a href="http://www.flickr.com/photos/thomashawk/2402598275/" target="_blank" title="Link opens in a new window">Thomas Hawk<span class="visuallyhidden"> opens in a new window</span></a> <a href="http://creativecommons.org/licenses/by-nc/2.0/" target="_blank" title="Link opens in a new window">cc<span class="visuallyhidden"> opens in a new window</span></a></p>
+        </section>
+        <section>
+          <h3>Provide plenty of time</h3>
+          <img src="img/clock.jpg" alt="Alarm clock"/>
+          <p class="credit">Photo credit: <a href="http://www.flickr.com/photos/beth19/4721798240/" target="_blank" title="Link opens in a new window">Bethan<span class="visuallyhidden"> opens in a new window</span></a> <a href="http://creativecommons.org/licenses/by-nc-nd/2.0/" target="_blank" title="Link opens in a new window">cc<span class="visuallyhidden"> opens in a new window</span></a></p>
+        </section>
+        <section>
+          <h3>CAPTCHAs don't just catch robots</h3>
+          <img src="img/confusedrobot.jpg" alt="Confused robot"/>
+          <p class="credit">Photo credit: <a href="http://www.flickr.com/photos/baboon/3946055/" target="_blank" title="Link opens in a new window">baboon<span class="visuallyhidden"> opens in a new window</span></a> <a href="http://creativecommons.org/licenses/by-nc/2.0/" target="_blank" title="Link opens in a new window">cc<span class="visuallyhidden"> opens in a new window</span></a></p>
+        </section>
+        <section>
+          <h3>Dealing with cognitive disabilities</h3>
+          <ul>
+            <li class="fragment">This is a less-researched area of web accessibility. Here is a <a href="http://jkg3.com/Journal/cognitive-accessibility-101-part-1-what-is-cognitive-accessibility">Cognitive 101</a>.</li>
+            <li class="fragment">Minimize cognitive load--don't overwhelm the user.</li>
+            <li class="fragment">Use common icons to mark important tasks and consider text labels.</li>
+            <li class="fragment">If you have timed content (forms, image galleries, etc.) provide controls or allow users to extend time.</li>
+            <li class="fragment">CAPTCHAs aren't blind-friendly, are very difficult for users with learning disabilities like dyslexia, and annoy everyone. Consider <a href="http://webaim.org/blog/spam_free_accessible_forms/" target="_blank" title="Link opens in a new window">an alternative method<span class="visuallyhidden"> opens in a new window</span></a>.</li>
+          </ul>
+          <img class="fragment" src="img/captcha.png" alt="Screenshot of a Captcha" />
+        </section>
+
 				<section>
 					<h2>External Links</h2>
 					<h3>Provide affordances to warn users.</h3>
@@ -197,6 +216,17 @@ opens in a new window
           <aside class="notes">A common problem cited in the WebAIM survey is “unexpected screen changes”. Discuss how to warn users of links that open in new windows with offscreen text and title attributes. Include a discussion about how it's really about usability in general. Recommended reading: “Don't Make Me Think” by Steve Krug</aside>
 				</section>
 
+        <section>
+          <h3>Physical Disabilities</h3>
+          <ul>
+            <li class="fragment">Many users with limited mobility interact with the screen via keyboard.</li>
+            <li class="fragment">Other users use a mouse, but have trouble with fine motor control.</li>
+            <li class="fragment">Make clickable elements large, and put space between them.</li>
+            <li class="fragment">Avoid clickable page elements that move.</li>
+            <li class="fragment">Animations with rapid flickers are not only annoying, they can trigger epileptic seizures.</li>
+            <li class="fragment">These guidelines also help children and touchscreen users!</li>
+          </ul>
+        </section>
 				<section>
 					<h2>Tab Index</h2>
 					<h3>What is it?</h3>
@@ -204,7 +234,7 @@ opens in a new window
 					<div style="padding-top:20px;">
 						<h3 tabindex="0">Focusable Heading</h3>
 						<a href="#" tabindex="-1">Link focusable only by script</a>
-						<div tabindex="0">Focusble div</div>
+						<div tabindex="0">Focusable div</div>
 					</div>
 					<aside class="notes">
             <p>Source: http://reference.sitepoint.com/html/a/tabindex</p>

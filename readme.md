@@ -1,5 +1,5 @@
 # Introduction to Web Accessibility
-Slides and materials are hosted at [http://girldevelopit.github.io/girldevelopit-rdu-access/](http://girldevelopit.github.io/girldevelopit-rdu-access/).
+Slides and materials are hosted at [http://girldevelopit.github.io/gdi-featured-accessibility/](http://girldevelopit.github.io/gdi-featured-accessibility/).
 
 This is the official Girl Develop It Web Accessibility curriculum. This is a four-hour course, divided into two two-hour sessions. It was originally developed by Sylvia Pellicore, with additional content from Aisha Blake. An update by Marcy Sutton converted it to a two-week class. There are four components: the course slides (class1.html and class2.html), a class activity handout (kitten-alt-text.pdf), an HTML/CSS demo with two parts (demo.html and demo.css), and an instructor guide (Instructor Guide.docx).
 
